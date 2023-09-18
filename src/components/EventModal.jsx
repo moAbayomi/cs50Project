@@ -42,17 +42,7 @@ const EventModal = () => {
 			<form action="" className="bg-white rounded-lg shadow-2xl w-1/4">
 				<header className="bg-gray-100 px-4 flex justify-between items-center">
 					<span className="text-gray-400">_</span>
-					{selectedEvent && (
-						<span
-							onClick={() => {
-								dispatchCallEvent({ type: "delete", payload: selectedEvent });
-								setShowEventModal(false);
-							}}
-							className="cursor-pointer bg-gray-500"
-						>
-							<ion-icon name="trash"></ion-icon>
-						</span>
-					)}
+
 					<button
 						onClick={() => {
 							setShowEventModal(false);
@@ -124,7 +114,7 @@ const EventModal = () => {
 						</div>
 					</div>
 				</div>
-				<footer className="flex justify-end w-100 border-t p-3 mt-5">
+				<footer className="flex justify-between w-100 border-t p-3 mt-5">
 					<button
 						type="submit"
 						onClick={handleSubmit}
@@ -132,6 +122,17 @@ const EventModal = () => {
 					>
 						Save
 					</button>
+					{selectedEvent && (
+						<span
+							onClick={() => {
+								dispatchCallEvent({ type: "delete", payload: selectedEvent });
+								setShowEventModal(false);
+							}}
+							className="cursor-pointer bg-none flex justify-center items-center"
+						>
+							<ion-icon className="text-[64px]" name="trash"></ion-icon>
+						</span>
+					)}
 				</footer>
 			</form>
 		</div>
