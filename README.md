@@ -1,10 +1,18 @@
 # My Vite + React Calendar App
 
+#### Video Demo: https://youtu.be/bMcltkcTW9c
+
+#### Description: Welcome to my Vite + React Calendar App!
+
 ![App Screenshot](screenshot.png)
 
 ## Introduction
 
 Welcome to my Vite + React Calendar App! This application is designed to help users manage their schedules efficiently by providing an intuitive and customizable calendar experience. This README will provide an overview of the project, explain the contents of various files, and discuss design choices made during development.
+
+## Live Demo
+
+You can access a live demo of this project [here](https://famous-klepon-cf407d.netlify.app/).
 
 ## Usage
 
@@ -268,3 +276,29 @@ The ContextWrapper component wraps its children with a GlobalContext.Provider, p
 - **Event Management:** Create, edit, and delete events with ease.
 
 - **Customization:** Personalize your calendar with themes and event categories.
+
+## Acknowledgments
+
+- [React](https://reactjs.org/): I used React to build the user interface of our application, making it easier to manage components and state.
+
+- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS helped with styling the app efficiently with its utility-first approach.
+
+- [Vite](https://vitejs.dev/): Vite was my choice for the development build tool, offering fast development server and quick build times.
+
+I am immensely grateful to the open-source community for developing and maintaining these exceptional libraries and frameworks. They played a crucial role in shaping the project and making it a reality. Without the hard work and dedication of these contributors, this calendar app would not have been possible.
+
+## Contact Information
+
+If you have any questions, feedback, or suggestions, please feel free to reach out. You can contact me via the following methods:
+
+- **Email:** [mmabayomi2208@gmail.com](mailto:mmabayomi2208@gmail.com)
+
+- **GitHub:** [@moAabyomi](https://github.com/moAbayomi)
+
+- **LinkedIn:** [Muhammad Abayomi](https://www.linkedin.com/in/moAbayomi)
+
+- **Twitter:** [@moAbayomi](https://twitter.com/moAbayomi)
+
+Please don't hesitate to get in touch. Your feedback is valuable!
+
+THIS WAS CS50 ! zZZ
